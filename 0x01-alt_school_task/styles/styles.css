@@ -112,6 +112,11 @@ article h2 {
   color: #353526;
 }
 
+#edu-list h3.skill{
+  color: #bb0529;
+  margin-left: 8%;
+}
+
 #edu-list .school li {
   text-align: left;
   line-height: 1.5em;
@@ -158,3 +163,7 @@ section nav ul a {
   display: inline-block;
   border-radius: 30px;
 } */
+
+
+
+
