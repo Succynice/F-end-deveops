@@ -164,6 +164,26 @@ section nav ul a {
   border-radius: 30px;
 } */
 
+  /* MEDIA QUERRY */
 
+@media screen and (max-width: 560px) {
+
+  nav ul {
+  text-align: center;
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav li {
+  width: 20%;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+  nav{
+    top: 0;
+  }
 
 
