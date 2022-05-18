@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/log.css">
+  <title>SUCCY-PAGE</title>
+</head>
+
+<body>
+
+  <section class="nav-links">
+    <nav>
+      <ul>
+        <li><a href="./About-me.html">About Me</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./register.html">register</a></li>
+        <li><a href="./login.html">Login</a></li>
+      </ul>
+    </nav>
+  </section>
+
+
+  <main>
+    <article>
+      <h1 id="signin"><a href="#form">Signin</a></h1>
+      <form action="">
+        <div id="form">
+          <h2>login Details</h2>
+          <form>
+            <label for="email">
+              <input type="email" id="email" name="email" required placeholder="email" />
+            </label>
+            <br /><br />
+            <label for="password">
+              <input type="password" id="password" name="password" required placeholder="password" />
+            </label>
+            <br>
+            <div class="msg">
+              <label class="msg1" for="Message">Your message:<br>
+                <textarea name="user-message" id="message" cols="33" rows="4" placeholder="Type here....." wrap="hard"
+                  required></textarea>
+              </label>
+            </div>
+
+            <div>
+              <label for="priority">Priority:
+                <select name="priority" id="priority" required>
+                  <option value="male">Important</option>
+                  <option value="female">Very important</option>
+                  <option value="not_to_say">Not important</option>
+                </select>
+              </label>
+              <button>submit</button>
+            </div>
+        </div>
+      </form>
+    </article>
+
+    <section class="register">
+      <div>
+        <p>
+          Don't have an account? <a href="./register.html">Signup here</a>
+        </p>
+      </div><br>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+  <div id="footer">
+    <footer>
+      <p class="copyright">Copyright 2022 Succy</p>
+    </footer>
+  </div>
+</body>
+
+</html>
