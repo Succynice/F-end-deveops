@@ -25,35 +25,33 @@
 
   <main>
     <article>
-      <h1 id="signin"><a href="#form">Signin</a></h1>
+      <h1 id="signin"><a href="#form">Sign in</a></h1>
       <form action="">
         <div id="form">
           <h2>login Details</h2>
+
           <form>
-            <label for="email">
-              <input type="email" id="email" name="email" required placeholder="email" />
-            </label>
-            <br /><br />
-            <label for="password">
-              <input type="password" id="password" name="password" required placeholder="password" />
-            </label>
-            <br>
-            <div class="msg">
-              <label class="msg1" for="Message">Your message:<br>
-                <textarea name="user-message" id="message" cols="33" rows="4" placeholder="Type here....." wrap="hard"
-                  required></textarea>
+            <p>
+              <label for="email">
+                <input type="email" id="email" name="email" required placeholder="user name" />
               </label>
-            </div>
+            </p>
+
+            <p>
+              <label for="password">
+                <input type="password" id="password" name="password" required placeholder="password" />
+              </label>
+            </p>
+
+            <p id="checkbox">
+              <label>
+                <input type="checkbox" value="terms" class="checkbox">
+                I agree to the <a href="/terms">terms and conditions</a>
+              </label>
+            </p>
 
             <div>
-              <label for="priority">Priority:
-                <select name="priority" id="priority" required>
-                  <option value="male">Important</option>
-                  <option value="female">Very important</option>
-                  <option value="not_to_say">Not important</option>
-                </select>
-              </label>
-              <button>submit</button>
+              <button class="signin">Sign in</button>
             </div>
         </div>
       </form>

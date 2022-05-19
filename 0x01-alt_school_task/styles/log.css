@@ -1,6 +1,6 @@
 body {
   font-family: tahoma;
-  background-image: url(../img/bg1.jpeg);
+  background-image: url(../img/bg3.jpeg);
   background-repeat: no-repeat;
   background-position: top right;
   background-size: cover;
@@ -76,55 +76,74 @@ form,
   text-align: left;
 }
 
+#form input:focus{
+  border: 4px;
+  outline: none;
+}
+
+#form input:valid{
+  border: 1px solid #71d300;
+  border-radius: 26px;
+}
+
 #form h2 {
   font-family: tahoma;
 }
 
-#form div.msg {
-  text-align: center;
-  margin-top: 2%;
+#checkbox{
   font-family: tahoma;
-  font-weight: 550;
-  /* padding: 0 390px; */
-  max-width: 100%;
-  font-size: 20px;
+  font-size: 15px;
+  color: dimgrey;
+  font-style: italic;
 }
 
-#form div.msg textarea {
-padding: 6px;
-font-size: 0.9em;
+#checkbox a {
+  font-size: 15px;
+  color: #dc143c;
+}
+
+button {
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+button:hover{
+  text-decoration: navajowhite;
+  padding: 5px;
+  font-size: medium;
+}
+
+button.signin {
+  font-family: tahoma;
+  color: #f5f5dc;
+  font-weight: bold;
+  background-color: #dc143c;
 }
 
 section.register {
   font-family: tahoma;
   font-size: 15px;
   color: dimgrey;
+  text-align: left;
 }
 
 section.register a {
   font-size: 15px;
   color: #dc143c;
-  text-decoration: none;
+  font-style: italic;
 }
 
-button {
-  font-family: tahoma;
-  font-weight: bold;
-  padding: 3px 3px;
-  border-radius: 36px;
-  font-size: 18px;
+a:hover {
+  text-decoration: wavy;
+  padding: 5px;
+  font-size: 25px;
 }
 
-button.submit {
-  color: crimson;
-  font-weight: bold;
-  margin-top: 0.8%;
-}
-
-footer {
-  color: #352506;
-  text-align: center;
-  font-size: 1.1em;
+footer{
+color: #352506;
+text-align: center;
+font-size: 1.1em;
 }
 
 nav li a:hover {
