@@ -96,8 +96,11 @@ section.register a{
  text-decoration: none;
 }
 
-
-
+button {
+  padding: 3px 3px;
+ border-radius:36px;
+  font-size: 18px
+    }
 
 
 footer{
