@@ -8,7 +8,6 @@ body {
   font-family: "Source Sans Pro", "Arial", sans-serif;
 }
 
-
 body main {
   max-width: 100%;
   width: 1200px;
@@ -47,7 +46,8 @@ nav li a {
   color: #f5f5dc;
 }
 
-form, .register, 
+form,
+.register,
 #form {
   font-size: 22px;
   color: #2b0202;
@@ -55,7 +55,7 @@ form, .register,
 }
 
 form h2 {
-  color:beige;
+  color: beige;
   kerning: 10%;
   margin-top: 12%;
 }
@@ -90,8 +90,8 @@ div.gender select {
 button {
   font-family: tahoma;
   padding: 4px 8px;
- border-radius:30px;
-  font-size: 20px
+  border-radius: 30px;
+  font-size: 20px;
 }
 
 button.submit {
@@ -100,40 +100,69 @@ button.submit {
   margin-top: 1.5%;
 }
 
-div.login{
+div.login {
   font-size: 15px;
   color: #c9c6c6;
 }
 
-div.login a{
+div.login a {
   font-size: 15px;
- color: #dc143c;
- text-decoration: none;
+  color: #dc143c;
+  font-style: italic;
 }
 
-footer{
+footer {
   color: wheat;
   text-align: center;
   font-size: 1.1em;
 }
 
+/* HOVER EFFECT */
+nav li a:hover {
+  text-decoration: navajowhite;
+  padding: 10px;
+  font-size: larger;
+}
+
+#form input:focus {
+  border: 4px;
+  outline: none;
+}
+
+#form input:valid {
+  border: 1px solid #71d300;
+  border-radius: 26px;
+}
+
+button:hover {
+  text-decoration: navajowhite;
+  padding: 5px;
+  font-size: medium;
+}
+
+a:hover {
+  text-decoration: wavy;
+  padding: 5px;
+  font-size: 25px;
+}
+
+/* MEDIA QUARY */
 @media screen and (max-width: 560px) {
-
   nav ul {
-  text-align: center;
-  white-space: nowrap;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+    text-align: center;
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-nav li {
-  width: 20%;
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 500;
-}
+  nav li {
+    width: 20%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+  }
 
-nav{
-  top: 0;
-}
+  nav {
+    top: 0;
+  }
 }
