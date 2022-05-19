@@ -103,7 +103,7 @@ section.register {
 section.register a {
   font-size: 15px;
   color: #dc143c;
-  text-decoration: none;
+  font-style: italic;
 }
 
 button {
@@ -126,6 +126,8 @@ footer {
   font-size: 1.1em;
 }
 
+
+/* HOVER EFFECT */
 nav li a:hover {
   text-decoration: navajowhite;
   padding: 10px;
@@ -135,6 +137,34 @@ img:hover {
   text-decoration: navajowhite;
   padding: 10px;
   border-radius: 25%;
+}
+
+#form input:focus{
+  border: 4px;
+  outline: none;
+}
+
+#form input:valid{
+  border: 1px solid #71d300;
+  border-radius: 26px;
+}
+
+button:hover{
+  text-decoration: navajowhite;
+  padding: 5px;
+  font-size: medium;
+}
+
+a:hover {
+  text-decoration: wavy;
+  padding: 5px;
+  font-size: 25px;
+}
+
+#form div.msg textarea:focus{
+  border: 2px dashed #71d300;
+  outline: none;
+  border-radius: 6%;
 }
 
 @media screen and (max-width: 560px) 
