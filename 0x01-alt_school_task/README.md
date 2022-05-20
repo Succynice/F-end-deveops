@@ -2,9 +2,6 @@
 
 Project done during Frontend Engineering studies at __ALTSCHOOL OF ENGINEERING__. It aims to learn about how to build a web application using **HTML & CSS**.
 
-## Objective
-*Build a simple `HTML` & `CSS` driven web application made up of a few linked pages and styled content
-
 ## PAGE PREVIEW: [succywebpage](https://0x01-altschooltask.succynice.repl.co/)
 
 ## Directories 📁
@@ -24,7 +21,9 @@ _Filename_ | _Description_
 [Login](./login.html) | Login page
 [Register](./register.html) | Registration page
 
-## Tasks 🛅
+## Objective 🛅
+
+* **Build a simple `HTML` & `CSS` driven web application made up of a few linked pages and styled content**
 
 1. **Create a `HTML` page with the following information: *Home page which you will call [About Me](about.html), [contact page](contact.html), [register page](register.html) and [login pag](login.html)***
 
