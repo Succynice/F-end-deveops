@@ -5,7 +5,22 @@ Project done during Frontend Engineering studies at __ALTSCHOOL OF ENGINEERING__
 ## Objective
 *Build a simple `HTML` & `CSS` driven web application made up of a few linked pages and styled content
 
-## PAGE PREVIEW: [succywebpage](https://0x01-altschooltask.succynice.repl.co/register.html)
+## PAGE PREVIEW: [succywebpage](https://0x01-altschooltask.succynice.repl.co/)
+
+## Directories 📁
+- [Images](./img): This directory contains all images used for this project.
+
+- [Styles](./styles/): This directory contains all my css files for this project.
+
+## Files 📃
+* All of the following files are programs written in `C`
+_Filename_ | _Description_
+-----------|--------------
+[about Me](./about.html) | Home page
+[Calculator](./calc.html) | Static calculator UI page
+[Contact](./contact.html) | contact Page
+[Login](./login.html) | Login page
+[Register](./register.html) | Registration page
 
 ## Tasks 🛅
 
@@ -40,11 +55,11 @@ Project done during Frontend Engineering studies at __ALTSCHOOL OF ENGINEERING__
 
 6. **Add a navigation menu at the top of the home page(*About Me page*). It should contain links to the sections within the page. Also, since you have 4 pages (*the home page with your details, the contact page, the register page and the login page)*, add items to the menu that links the pages together so that there’s no dead end and you can always go from the home page to the others pages and then back to the home page**
 
-7. Create a *Calculator* page and create a calculator `UI` in it, using the `HTML` Table element. You will be back to make the calculator functional, but the goal for now is to make it look great, so apply what you have learnt about `HTML` & `CSS`. The Calculator should have:
+7. **Create a *Calculator* page and create a calculator `UI` in it, using the `HTML` Table element. You will be back to make the calculator functional, but the goal for now is to make it look great, so apply what you have learnt about `HTML` & `CSS`. The Calculator should have:**
 - A text field at the top
 - Numbers `0` to `9`
 - Regular Maths operators like addition `(+)`, subtraction `(-)`, multiplication `(*)`, division `(/)`, and modulo `(%)`
 
-8. Somewhere on the page where it makes sense visually, add a photo of yourself
+8. **Somewhere on the page where it makes sense visually, add a photo of yourself**
 
-9. Bonus: Re-create the calculator `UI` in a new page, using `CSS` flexbox instead of using a table like earlier requested
+9. **Bonus: Re-create the calculator `UI` in a new page, using `CSS` flexbox instead of using a table like earlier requested**
