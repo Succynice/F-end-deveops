@@ -2,7 +2,7 @@
 
 Project done during Frontend Engineering studies at __ALTSCHOOL OF ENGINEERING__. It aims to learn about how to build a web application using **HTML & CSS**.
 
-## PAGE PREVIEW: [succywebpage](https://0x01-altschooltask.succynice.repl.co/)
+## Overview 👉🏼: [succywebpage](https://0x01-altschooltask.succynice.repl.co/)
 
 ## Directories 📁
 - [Images](./img): This directory contains all images used for this project.
@@ -73,3 +73,11 @@ _Filename_ | _Description_
 
 
 9. **Bonus: Re-create the calculator `UI` in a new page, using `CSS` flexbox instead of using a table like earlier requested**
+
+## Built With 🛠
+  * HTML5
+  * CSS3
+
+## Contact 🤙
+  - Github: [@succynice](https://github.com/Succynice)
+  - Twitter: [@succynice](https://twitter.com/succynice)
