@@ -13,7 +13,9 @@ Project done during Frontend Engineering studies at __ALTSCHOOL OF ENGINEERING__
 - [Styles](./styles/): This directory contains all my css files for this project.
 
 ## Files 📃
-* All of the following files are programs written in `C`
+
+* All of the following files are pages created with `HTML` and styled using `CSS`
+
 _Filename_ | _Description_
 -----------|--------------
 [about Me](./about.html) | Home page
