@@ -15,8 +15,8 @@ After clicking a “Redact Now” button, the app scans through the original tex
 
 ## Advanced features
 
-* Allow the user specify what to use in replacing the words, so that the app can do the scrambling with what the user provides, be it asterisks, questions marks, dashes, underscores, or even other words
-* Display some stats like how many words were scanned, how many matched the words to be scrambled, how many characters were scrambled in total, how long it took (in seconds) to complete the scrambling task e.t.c. Feel free to be creative here
+*User can specify what to use in replacing the words, then the app can do the scrambling with what the user provides, be it asterisks, questions marks, dashes, underscores, or even other words
+* Displays some stats like how many words were scanned, how many matched the words to be scrambled, how many characters were scrambled in total, how long it took (in seconds) to complete the scrambling task e.t.c.
 
 ******
 
