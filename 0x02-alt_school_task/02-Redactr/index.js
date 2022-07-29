@@ -86,7 +86,7 @@ const replacement = document.getElementById("replacement");
 const preview = document.getElementById("preview");
 const err = document.getElementById("err");
 const previewContainer = document.getElementsByClassName("preview-container")[0];
-const howItWorks = document.getElementsByClassName("how-it-works")[0];
+const howItWorks = document.getElementsByClassName("mode-of-operation")[0];
 const stats = document.getElementsByClassName("stat")[0];
 const backBtn = document.getElementsByClassName("back")[0];
 const copy = document.getElementsByClassName("fa-clipboard")[0];
@@ -106,7 +106,7 @@ function redactWords() {
 
     preview.innerHTML = contentValue;
     previewContainer.style = "display: block;";
-    howItWorks.style.display = "none";
+    modeofoperation.style.display = "none";
     redactr.style.display = "none";
 
   }
@@ -124,7 +124,7 @@ redactr.onsubmit = (e) => {
 // back button 
 backBtn.onclick = () => {
   previewContainer.style = "display: none;";
-  howItWorks.style.display = "block";
+  modeofoperation.style.display = "block";
   redactr.style.display = "block";
 }
 
