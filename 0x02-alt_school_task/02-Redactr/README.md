@@ -28,3 +28,4 @@ After clicking a “Redact Now” button, the app scans through the original tex
 ## Contact 🤙
   - Github: [@succynice](https://github.com/Succynice)
   - Twitter: [@succynice](https://twitter.com/succynice)
+
