@@ -1,9 +1,3 @@
 # F-end-devops
 
 
-
-
-
-
-
-
